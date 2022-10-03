@@ -19,4 +19,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     else {
         alert('Tui password bhule gesos. toke ami tejjo sontan goshona korlam.');
     }
+
+    emailField.value = '';
+    passwaordFiled.value = '';
 })
